@@ -1,0 +1,174 @@
+.fatherProjects{
+    width: 100%;
+    height: 80vh;
+}
+
+.lockationSpan{
+    width: 5.3%;
+    height: 10%;
+    justify-content: end;
+    align-items: end;
+    display: flex;
+    padding: 0 0 0 15px;
+}
+
+
+
+.lockationSpan span{
+    color: rgba(141, 141, 141, 0.804);
+}
+
+.scrollBox{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    overflow-x: auto;
+    gap: 10px;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}.scrollBox::-webkit-scrollbar {
+    display: none;
+}
+
+.box{
+    width: auto;
+    height: 100%;
+    background-color: black;
+    border-radius: 8px;
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.styleProject{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.854), transparent);
+    z-index: 1;
+}
+
+.box h3{
+    position: absolute;
+    bottom: 20%;
+    left: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 2;
+    margin: 0;
+    width: 50%;
+}
+
+.DescriptionPForDesctop{
+    position: absolute;
+    bottom: 13%;
+    left: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 2;
+    margin: 0;
+    width: 50%;
+}
+
+.DescriptionTechnologiesForDesctop{
+    position: absolute;
+    bottom: 8%;
+    left: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    z-index: 2;
+    margin: 0;
+    width: 50%;
+}
+
+.whatIsIt{
+    position: absolute;
+    bottom: 2%;
+    left: 20px;
+    color: #b42a2a;
+    font-size: 10px;
+    font-weight: 400;
+    z-index: 2;
+    margin: 0;
+    width: 50%;
+}
+
+.buttonGoPage{
+    width: 14%;
+    height: 10%;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(135deg, #10b981, #059669);
+    right: 10%;
+    bottom: 5%;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.DescriptionPForUX{
+    position: absolute;
+    bottom: 9%;
+    left: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 2;
+    margin: 0;
+    width: 50%;
+}
+
+.TechnologiesDescriptionForUX{
+    position: absolute;
+    bottom: 2%;
+    left: 20px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    z-index: 2;
+    margin: 0;
+    width: 50%;
+}
+
+.buttonGoPageForMobile{
+    width: 24%;
+    height: 9%;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(135deg, #10b981, #059669);
+    right: 8%;
+    bottom: 5%;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+    .lockationSpan{
+    width: 16%;
+    font-size: 13px;
+    }
+}

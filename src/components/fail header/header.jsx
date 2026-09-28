@@ -1,10 +1,9 @@
 import './header.css';
 import Sun from '../../assets/gifs/sun.png';
 import Moon from '../../assets/gifs/moon.png'
-import meno from '../../assets/gifs/menuBlack.png';
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { Us, Fr, Jp, Ir, Es, De, Sa, Tr, Cn, Ru, It, Kr, In} from 'react-flag-icons';
-import { FaTelegram, FaInstagram, FaXing, FaGithub} from 'react-icons/fa';
+import { FaTelegram, FaInstagram, FaXing, FaGithub, FaBars} from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 import { BiLogoGmail, BiLogoUpwork } from 'react-icons/bi';
 import { SiPeerlist, SiWellfound  } from "react-icons/si";
@@ -54,7 +53,7 @@ function Header() {
                 </div>
                 <strong>Web <b>Wizard</b></strong>
                 <div className='menoAndTranslater'>
-                    <img src={meno} alt="icon meno" className='iconRightHeaderMeno' onClick={answerMeno} />
+                    <FaBars className='iconRightHeaderMeno' onClick={answerMeno} />
                 </div>
                 <div className={`moveMeno ${isOpen ? 'open' : ''}`}>
 

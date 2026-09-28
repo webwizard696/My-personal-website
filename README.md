@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Personal Portfolio Website
 A modern, responsive personal portfolio website built with React.
 

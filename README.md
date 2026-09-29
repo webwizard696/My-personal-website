@@ -55,5 +55,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Developer: Mohammad Hamze (Web Wizard 🧙)
-- *I❤️code*
+Developer: Mohammad Hamze (Web Wizard 🧙) *I❤️code*

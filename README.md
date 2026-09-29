@@ -39,7 +39,9 @@ src/
 
 ![Desktop Dark Mode](./src/assets/gifs/SCR_Dark.png)
 
-![Mobile Light Mode](./src/assets/gifs/SCR_Light.png)
+<p align="center">
+    <img src="./src/assets/gifs/SCR_Light.png" alt="Desktop Light Mode" width="300" />
+</p>
 
 ## 🙏 Acknowledgements
 "Special thanks to my mentor for his invaluable guidance throughout my JavaScript and React journey."

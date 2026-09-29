@@ -1,13 +1,11 @@
 # Personal Portfolio Website
-
 A modern, responsive personal portfolio website built with React.
 
 ## 🔗 Live Demo
-
 https://webwizard696.github.io/My-personal-website/
 
-## ✨ Features
 
+## ✨ Features
 - Fully responsive design (mobile-first)
 - Dark/Light theme toggle with animation
 - Hamburger menu with slide-in navigation
@@ -16,7 +14,6 @@ https://webwizard696.github.io/My-personal-website/
 - Contact section with social links
 
 ## 🛠️ Technologies Used
-
 - React - Frontend framework
 - JavaScript (ES6+) - Logic and interactivity
 - HTML5 - Structure
@@ -24,6 +21,7 @@ https://webwizard696.github.io/My-personal-website/
 
 ## 📂 Project Structure
 
+```
 src/
 ├── components/
 │   ├── Header/
@@ -35,18 +33,22 @@ src/
 ├── data/
 ├── App.jsx
 └── index.js
+```
+
+# 📸 Screenshots
+
+![Desktop Dark Mode](./src/assets/gifs/SCR_Dark.png)
+
+![Mobile Light Mode](./src/assets/gifs/SCR_Light.png)
 
 ## 🙏 Acknowledgements
-
 "Special thanks to my mentor for his invaluable guidance throughout my JavaScript and React journey."
 
 ## 📬 Contact
-
 - Email: web.wizard.696@gmail.com
 - GitHub: https://github.com/webwizard696
 
 ## 📄 License
-
 This project is open source and available under the MIT License.
 
 ---

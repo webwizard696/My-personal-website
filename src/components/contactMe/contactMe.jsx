@@ -13,35 +13,26 @@ function ContactMe() {
         <div className='contactMeText'>
             <div className='line'>
                 <div className='iconsApp'>
-                    <FaGithub className='iconInContactMe' />
+                    <a href="https://github.com/webwizard696" target='_blank' rel='noopener noreferrer'>
+                        <FaGithub className='iconInContactMe' />
+                    </a>
                 </div>
                 <div className='iconsApp'>
-                    <BiLogoGmail className='iconInContactMe' />
+                    <a href="web.wizard.696@gmail.com" target='_blank' rel='noopener noreferrer'>
+                        <BiLogoGmail className='iconInContactMe' />
+                    </a>
                 </div>
                 <div className='iconsApp'>
-                    <FaTelegram className='iconInContactMe' />
-                </div>
-            </div>
-            <div className='line'>
-                <div className='iconsApp'>
-                    <BiLogoUpwork className='iconInContactMe' />
-                </div>
-                <div className='iconsApp'>
-                    <FaInstagram className='iconInContactMe' />
-                </div>
-                <div className='iconsApp'>
-                    <FaXTwitter className='iconInContactMe' />
+                    <a href="https://t.me/Nrrrafj" target='_blank'  rel='noopener noreferrer'>
+                        <FaTelegram className='iconInContactMe' />
+                    </a>
                 </div>
             </div>
             <div className='line'>
                 <div className='iconsApp'>
-                    <SiWellfound className='iconInContactMe' />
-                </div>
-                <div className='iconsApp'>
-                    <FaXing className='iconInContactMe' />
-                </div>
-                <div className='iconsApp'>
-                    <SiPeerlist className='iconInContactMe' />
+                    <a href="http://instagram.com/hamze1010100011" target='_blank' rel='noopener noreferrer'>
+                        <FaInstagram className='iconInContactMe' />
+                    </a>
                 </div>
             </div>
         </div>

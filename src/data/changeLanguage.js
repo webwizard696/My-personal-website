@@ -1,0 +1,26 @@
+export const language={
+    EN: {
+        webWizard:'Web Wizard',
+        web:'WEB',
+        designer:'DESIGNER',
+        textHero1:`Hi! I'm Web Wizard, a front-end developer with a love for coding.`,
+        textHero2:'Join me to build your ideas.',
+        textBottomLeft:'Projects',
+        textBottomcCenter:'Contact us',
+        textBottomReight:'About me',
+        titleProgect1:'Calculator',
+        p1Progect:'A calculator with a glass-like background and small, moving cubes.',
+        p2Progect:'Technologies Used : Html , CSS , JavaScript',
+        bottomProgect:'View',
+        titleProgect2:'Digital Clock',
+        p1Progect2:'A beautiful digital clock with a glass background.',
+        p2Progect2:'Technologies Used : Html , CSS , JavaScript',
+        redText:'For desktop users',
+        aboutMeLine1:'I am Mohammad Hasan Hamze, a front-end developer passionate about building clean and responsive web applications. I work with HTML, CSS, JavaScript, and React, and I am always learning to keep my skills up to date.',
+        aboutMeLine2:'You can call me Web Wizard — because I love turning simple ideas into magical web experiences.',
+        aboutMeLine3:'I am currently looking for remote opportunities and freelance projects where I can contribute and grow. After React, I am exploring what to learn next to expand my skill set.',
+        aboutMeLine4:'Feel free to check out my projects and get in touch!',
+        contactMe:'For collaboration or questions, contact me',
+        line2Footer:'Every line of code is a small act of creation.',
+    }
+}

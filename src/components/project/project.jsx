@@ -1,34 +1,35 @@
 import './projectSytile.css';
 import project1 from '../../assets/gifs/projectClock.png';
-import project2 from '../../assets/gifs/projectCalculator.png'
-
+import project2 from '../../assets/gifs/projectCalculator.png';
+import { useLanguage } from '../../context/LanguageContext';
 
 function Project(){
+    const { t } = useLanguage();
+
     return(
-        <div className='fatherProjects'   id='tagScroll'>
+        <div className='fatherProjects' id='tagScroll'>
             <div className='lockationSpan'>
-                <span>Projects</span>
+                <span>{t('textBottomLeft')}</span>
             </div>
             <div className='scrollBox'>
                 <div className='box'>
                     <img src={project2} alt="wizard" className='styleProject' />
-                    <h3>Calculator</h3>
-                    <p className='DescriptionPForUX'>A calculator with a glass-like background and small, moving cubes.</p>
-                    <p className='TechnologiesDescriptionForUX'>Technologies Used : Html , CSS , JavaScript</p>
-                    <button className='buttonGoPageForMobile'>View</button>
+                    <h3>{t('titleProgect1')}</h3>
+                    <p className='DescriptionPForUX'>{t('p1Progect')}</p>
+                    <p className='TechnologiesDescriptionForUX'>{t('p2Progect')}</p>
+                    <button className='buttonGoPageForMobile'>{t('bottomProgect')}</button>
                 </div>
                 <div className='box'>
                     <img src={project1} alt="wizard" className='styleProject' />
-                    <h3>Digital Clock</h3>
-                    <p className='DescriptionPForDesctop'>A beautiful digital clock with a glass background.</p>
-                    <p className='DescriptionTechnologiesForDesctop'>Technologies Used : Html , CSS , JavaScript</p>
-                    <p className='whatIsIt'>For desktop users</p>
-                    <button className='buttonGoPage'>View</button>
+                    <h3>{t('titleProgect2')}</h3>
+                    <p className='DescriptionPForDesctop'>{t('p1Progect2')}</p>
+                    <p className='DescriptionTechnologiesForDesctop'>{t('p2Progect2')}</p>
+                    <p className='whatIsIt'>{t('redText')}</p>
+                    <button className='buttonGoPage'>{t('bottomProgect')}</button>
                 </div>
             </div>
         </div>
     )
 }
-
 
 export default Project;

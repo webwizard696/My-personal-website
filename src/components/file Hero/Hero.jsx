@@ -1,8 +1,9 @@
 import './Hero.css';
-import ME from '../../assets/gifs/ME.jpg'
-
+import ME from '../../assets/gifs/ME.jpg';
+import { useLanguage } from '../../context/LanguageContext';
 
 function Hero() {
+    const { t } = useLanguage();
 
     const scrollBottom = () => {
         const tag = document.getElementById('tagScroll');
@@ -23,24 +24,30 @@ function Hero() {
         <div className="heroDad">
             <div className='consProfileAndMyJob'>
                 <div className='nameMyJob'>
-                    <strong className='colorText'>WEB</strong><strong>DESIGNER</strong>
+                    <strong className='colorText'>{t('web')}</strong>
+                    <strong>{t('designer')}</strong>
                 </div>
                 <div className='profile'>
-                    <img src={ME} alt="" srcset="" className='ME' />
+                    <img src={ME} alt="" className='ME' />
                 </div>
             </div>
             <div className='text'>
-                <p>Hi! I'm Web Wizard, a front-end developer with a love for coding.</p>
-                <p>Join me to build your ideas.</p>
+                <p>{t('textHero1')}</p>
+                <p>{t('textHero2')}</p>
             </div>
             <div className='boxButtom'>
-                <button className='btnNext' onClick={scrollBottom}>Project</button>
-                <button className='btnBetwen' onClick={scrollContactMe}>Contact us</button>
-                <button className='btnNext' onClick={scrollBottomLevel0}>About me</button>
+                <button className='btnNext' onClick={scrollBottom}>
+                    {t('textBottomLeft')}
+                </button>
+                <button className='btnBetwen' onClick={scrollContactMe}>
+                    {t('textBottomcCenter')}
+                </button>
+                <button className='btnNext' onClick={scrollBottomLevel0}>
+                    {t('textBottomReight')}
+                </button>
             </div>
         </div>
     )
 }
-
 
 export default Hero;

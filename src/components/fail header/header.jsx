@@ -55,7 +55,7 @@ function Header() {
     return(
         <header>
             <div className='nightMorning' onClick={click}>
-                <img src={isImg} className={isRight ? 'moveImgX' : 'moveImgY'} alt="change photo" />
+                <img src={isImg} className={isRight ? 'moveImgX' : 'moveImgY'} alt="change" />
             </div>
             <strong>{t('webWizard')}</strong>
 

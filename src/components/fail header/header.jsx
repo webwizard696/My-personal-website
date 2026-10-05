@@ -91,15 +91,10 @@ function Header() {
                 </button>
                 <div className={`styleContactUs ${inSide ? 'styleContactUs1' : ''}`}>
                     <ul className='styleSS'>
-                        <li><FaTelegram className='icon' size={28} /><span>Telegram</span></li>
-                        <li><BiLogoGmail className='icon' size={28} /><span>Email</span></li>
-                        <li><FaGithub className='icon' size={28} /><span>Github</span></li>
-                        <li><FaXing className='icon' size={28} /><span>XING</span></li>
-                        <li><FaInstagram className='icon' size={28} /><span>Instagram</span></li>
-                        <li><FaXTwitter className='icon' size={28} /><span>X</span></li>
-                        <li><SiPeerlist className='icon' size={28} /><span>Peerlist</span></li>
-                        <li><BiLogoUpwork className='icon' size={28} /><span>Upwork</span></li>
-                        <li><SiWellfound className='icon' size={28} /><span>Wellfound jobs</span></li>
+                        <li><a href="https://t.me/Nrrrafj"><FaTelegram className='icon' size={28} /><span>Telegram</span></a></li>
+                        <li><a href="mailto:web.wizard.696@gmail.com"><BiLogoGmail className='icon' size={28} /><span>Email</span></a></li>
+                        <li><a href="https://github.com/webwizard696"><FaGithub className='icon' size={28} /><span>Github</span></a></li>
+                        <li><a href="http://instagram.com/hamze1010100011"><FaInstagram className='icon' size={28} /><span>Instagram</span></a></li>
                     </ul>
                 </div>
 
